@@ -1,0 +1,134 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navItems{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-left: 40vh;
+    justify-content: space-around;
+}
+.navItems>a{
+    /* border: 2px solid red; */
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+#cardContainer>button{
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgb(205, 47, 47);
+    outline: 2px solid black;
+    padding: .4rem 1rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff
+}
+#cardContainer{
+    /* border: 2px solid blue; */
+    width: 50vh;
+    padding-block: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#cardContainer>img{
+    width: 70px;
+    height: 70px;
+   margin-right: 380px;
+}
+/* .bannerGen{
+    display: flex;
+    justify-content: space-between; */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerGen{
+    max-width: 1100px;
+    margin: 5rem auto;
+}
+body{
+    
+
+/* order: 2px solid red;b */
+}
+.cardContent{
+    padding-block: 1rem;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 60%;
+}
+h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+h1{
+    font-size: 5.6rem;
+    font-weight: 400;
+    line-height: 90px;
+}
+h1>span{
+    color: rgb(205, 47, 47);
+}
+.cardContent>p{
+    font-size: 18px;
+    opacity: 70%;
+    width: 400px;
+    line-height: 30px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    padding-block: .8rem;
+}
+.icons>a>i{
+    font-size: 25px;
+    color: black;
+}
+.icons>a>i:hover{
+    color: red;
+}
+.cardContent>button{
+    display: inline-block;
+    width: 30%;
+    background-color: rgb(205, 47, 47);
+    color: #fff;
+    padding-block: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: .1rem .1rem black;
+}
+.cardContent>button>i{
+    margin-left: 10px;
+}
+.bannerImgcontainer{
+    width: 32%;
+    height: 475px;
+    border: 3px solid black;
+    transform: rotateZ(3deg);
+    box-shadow: 8px 8px black ;
+    border-radius: 15px;
+    transition: 300ms;
+}
+.bannerImgcontainer>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.bannerImgcontainer:hover{
+    box-shadow: none;
+    transform: rotateZ(0deg);
+    transition: 300ms;
+}
